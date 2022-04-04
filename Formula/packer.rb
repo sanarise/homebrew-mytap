@@ -4,7 +4,7 @@ class Packer < Formula
   version "1.8.0"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://releases.hashicorp.com/packer/1.8.0/packer_1.8.0_darwin_amd64.zip"
+    url "https://storage.yandexcloud.net/homebrew-tap/packer_1.8.0_darwin_amd64.zip"
     sha256 "2c0ec4e75f54600e3796feb8f3411f7f576af005fecbd2e3d2c530d1316a4ca6"
   end
 
